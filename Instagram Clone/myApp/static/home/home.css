@@ -1,13 +1,77 @@
+/* universal viewport */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* body */
 body {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
-h1 {
-    color: black;
+/* container-fluid header */
+.nav-fluid {
+  background-color: white;
+  border-bottom: 2px groove white;
+}
+
+/* navbar logo */
+.logo {
+  width: 100px;
+  height: 30px;
+}
+
+/* search bar */
+.search-box {
+  border: 1px inset white;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+/* navbar home-icon */
+.home-icon,
+.msg-icon,
+.insta-post,
+.explore-icon {
+  height: 22px;
+  width: 22px;
+}
+
+.user-post {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+
+.user-post-card {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.stories {
+  background-color: white;
+  width: 30rem;
+  margin-left: 0px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.story {
+  width: 55px;
+  height: 55px;
+  border: 2px ridge whitesmoke;
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: 90px;
+  border: 1px solid black;
+  width: 900px;
+  padding-top: 10px;
+}
+
+.header {
+  width: 900px;
 }
