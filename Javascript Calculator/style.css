@@ -1,0 +1,149 @@
+/* universal viewport */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  background-color: whitesmoke;
+}
+
+/* main container */
+#main {
+  color: white;
+  background-color: black;
+  margin: 50px auto;
+  width: 350px;
+  height: 600px;
+  border: 4px ridge silver;
+  border-radius: 30px;
+}
+
+/* notification-bar */
+#notification-bar ul li {
+  padding: 0px 0px 0px 10px;
+  font-size: 13px;
+  display: inline;
+  list-style-type: none;
+}
+
+/* left notification icon */
+.left {
+  margin-left: 10px;
+}
+
+/* right notification icons */
+.right {
+  margin-left: 190px;
+}
+
+/* display output */
+#output {
+  font-size: 35px;
+  padding: 95px 35px 0px 0px;
+  text-align: right;
+  border-radius: 25px 25px 0px 0px;
+  height: 150px;
+}
+
+/* buttons container */
+#buttons {
+  height: 380px;
+}
+
+/* button row */
+.row {
+  padding: 10px 10px;
+}
+
+/* Button */
+.btn {
+  margin: 0px 10px;
+  width: 57px;
+  height: 57px;
+  display: inline;
+  color: white;
+  background-color: #3a3a38;
+  border: none;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+#calculate {
+  margin: 0px 10px;
+  width: 57px;
+  height: 57px;
+  display: inline;
+  color: white;
+  background-color: #3a3a38;
+  border: none;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+#clear {
+  margin: 0px 10px;
+  width: 57px;
+  height: 57px;
+  display: inline;
+  color: white;
+  background-color: #3a3a38;
+  border: none;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+/* iphone back button */
+#backspace {
+  margin: 30px 110px;
+  background-color: white;
+  height: 3px;
+  border-radius: 10px;
+}
+
+/* orange colored buttons */
+.orange {
+  background-color: #ff8c00;
+  color: white;
+}
+
+/* zero button */
+.zero {
+  margin: 0px 10px;
+  width: 140px;
+  height: 57px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 21px;
+  background-color: #3a3a38;
+  color: white;
+}
+
+/* notification icons */
+.icons {
+  height: 15px;
+}
+
+/* top button row icons */
+.top {
+  background-color: silver;
+  color: black;
+}
+
+/* AC button */
+#clear {
+  background-color: silver;
+  color: black;
+}
+
+/* rotating battery icon 180deg */
+.battery {
+  transform: rotate(180deg);
+}
